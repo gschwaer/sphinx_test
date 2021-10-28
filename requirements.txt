@@ -1,1 +1,2 @@
--e git+ssh://git@github.com/gschwaer/sphinx.git@master#egg=sphinx
+sphinx
+sphinx_rtd_theme

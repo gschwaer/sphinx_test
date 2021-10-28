@@ -1,1 +1,1 @@
--e git+ssh://git@github.com/gschwaer/sphinx.git@master#egg=sphinx
+-e git+ssh://git@github.com/gschwaer/sphinx.git@autodoc_force_undocumented_rtype#egg=sphinx

@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.pythonPath": ".venv/bin/python"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Python: sphinx",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/.venv/bin/sphinx-build",
+				"args": [
+					"-M",
+					"html",
+					"docs",
+					"docs/_build"
+				]
+			},
+		],
+	}
+}
